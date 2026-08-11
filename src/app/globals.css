@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1, h2, h3 {
+    @apply font-cinzel;
+  }
+}
+
+body {
+  background-color: #0B0B0C;
+  color: #ffffff;
+}
+
+/* Custom Scrollbar for a premium feel */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0B0B0C;
+}
+::-webkit-scrollbar-thumb {
+  background: #DFB15B;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #F3A833;
+}
